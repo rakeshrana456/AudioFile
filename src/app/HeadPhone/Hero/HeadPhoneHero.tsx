@@ -8,7 +8,7 @@ export default function HeadPhoneHero({ item }: HeroProps) {
   return (
     <section >
       <div className="container flex items-center justify-between">
-        <div className="relative w-[615px] h-[638px] ">
+        <div className="relative w-[615px] h-[638px] rounded-xl ">
   <Image
     src={item?.imageSec?.src}
     alt={item.imageSec.alt}
