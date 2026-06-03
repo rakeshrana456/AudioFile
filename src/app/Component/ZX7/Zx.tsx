@@ -5,7 +5,7 @@ export default function Zx() {
        <div className="container py-10 ">
   <div className="relative h-[320px] rounded-lg overflow-hidden">
     <Image
-      src="/Zx/zx.jpg"
+      src="/ZX/zx.jpg"
       alt="ZX7 Speaker"
       height={420}
       width={640}
