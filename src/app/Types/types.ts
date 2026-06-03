@@ -8,6 +8,10 @@ export interface Item {
     src: string;
     alt: string;
   };
+   imageSec: {
+    src: string;
+    alt: string;
+  };
 }
 
 export interface SpeakerType{

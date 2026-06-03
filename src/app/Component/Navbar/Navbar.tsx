@@ -17,7 +17,7 @@ export default function Navbar() {
           <div className="nav-links ">
             <ul className="flex gap-12">
               <li className="nav-item  text-md font-bold hover:text-orange-500 transition-all duration-700"><Link href="/">Home</Link></li>
-              <li className="nav-item  text-md font-bold hover:text-orange-500 transition-all duration-700"><Link href="/about">Headphones</Link></li>
+              <li className="nav-item  text-md font-bold hover:text-orange-500 transition-all duration-700"><Link href="/Common/Headphone">Headphones</Link></li>
               <li className="nav-item  text-md font-bold hover:text-orange-500 transition-all duration-700"><Link href="/contact">Speakers</Link></li>
               <li className="nav-item  text-md font-bold hover:text-orange-500 transition-all duration-700"><Link href="/contact">Earphones</Link></li>
             </ul>

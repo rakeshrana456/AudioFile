@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Manrope } from "next/font/google";
 import "./globals.css";
-
+import Navbar from "./Component/Navbar/Navbar";
+import Footer from "./Component/Footer/Footer";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -22,7 +23,9 @@ export default function RootLayout({
       lang="en"
       className={` ${manrope.className} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      
+      <body className="min-h-full flex flex-col"><Navbar/>{children}  <Footer/>   </body>
+    
     </html>
   );
 }

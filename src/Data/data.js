@@ -3,9 +3,14 @@ export const heroData = [{
   "tag": "NEW PRODUCT",
   "title": "XX99 MARK II HEADPHONES",
   "description": "Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.",
+  
   "buttonText": "SEE PRODUCT",
   "image": {
     "src": "/Hero/image-hero.png",
+    "alt": "XX99 Mark II Headphones"
+  },
+  "imageSec": {
+    "src": "/Hero/HeadPhone.png",
     "alt": "XX99 Mark II Headphones"
   }
 }]
