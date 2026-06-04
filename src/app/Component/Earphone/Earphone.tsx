@@ -24,7 +24,7 @@ export default function Earphone() {
               YX1 Earphones
             </h2>
 
-            <button className="border border-black text-black px-6 py-3 text-sm font-semibold uppercase hover:bg-black hover:text-white transition-all duration-300">
+            <button className=" cursor-pointer border border-black text-black px-6 py-3 text-sm font-semibold uppercase hover:bg-black hover:text-white transition-all duration-300">
               See Product
             </button>
           </div>

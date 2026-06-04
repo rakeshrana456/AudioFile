@@ -29,7 +29,7 @@ export default function HeadPhoneHero({ item }: HeroProps) {
             {item.description}
           </p>
 
-          <button className="bg-[#D87D4A] text-white px-6 sm:px-8 py-3 sm:py-4 hover:bg-[#D87D4A]/80 transition-colors">
+          <button className="bg-[#D87D4A] cursor-pointer  text-white px-6 sm:px-8 py-3 sm:py-4 hover:bg-[#D87D4A]/80 transition-colors">
             {item.buttonText}
           </button>
         </div>

@@ -20,7 +20,7 @@ export default function Hero({ item }: HeroProps) {
             {item.description}
           </p>
 
-          <button className="bg-[#D87D4A] text-white px-8 py-4 hover:bg-[#D87D4A]/80 transition-colors">
+          <button className=" cursor-pointer bg-[#D87D4A] text-white px-8 py-4 hover:bg-[#D87D4A]/80 transition-colors">
             {item.buttonText}
           </button>
         </div>

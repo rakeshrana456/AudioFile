@@ -43,7 +43,7 @@ export default function Speaker({ item }: SpeakerBannerProps) {
                 {item.description}
               </p>
 
-              <button className="bg-black text-white px-8 py-4 text-[13px] font-bold tracking-[1px] uppercase hover:bg-[#4C4C4C] transition">
+              <button className="cursor-pointer bg-black text-white px-8 py-4 text-[13px] font-bold tracking-[1px] uppercase hover:bg-[#4C4C4C] transition">
                 {item.buttonText}
               </button>
             </div>

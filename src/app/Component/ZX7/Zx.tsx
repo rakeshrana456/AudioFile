@@ -18,7 +18,7 @@ export default function Zx() {
               ZX7 SPEAKER
             </h2>
 
-            <button className="mt-4 md:mt-8 px-6 md:px-8 py-3 border border-black text-xs font-semibold tracking-wider text-black hover:bg-black hover:text-white transition-all duration-300">
+            <button className="cursor-pointer mt-4 md:mt-8 px-6 md:px-8 py-3 border border-black text-xs font-semibold tracking-wider text-black hover:bg-black hover:text-white transition-all duration-300">
               SEE PRODUCT
             </button>
           </div>
