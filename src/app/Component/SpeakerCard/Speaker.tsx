@@ -14,17 +14,17 @@ interface SpeakerBannerProps {
   };
 }
 
-export default function Speaker({
-  item,
-}: SpeakerBannerProps) {
+export default function Speaker({ item }: SpeakerBannerProps) {
   return (
-    <section className="py-10">
+    <section className="py-8 md:py-10">
       <div className="container">
-        <div className={`${item.bgColor} h-140 rounded-lg overflow-hidden`}>
-          <div className="flex flex-col lg:flex-row items-center justify-between px-8 lg:px-24">
+        <div
+          className={`${item.bgColor} rounded-lg overflow-hidden min-h-[600px] lg:min-h-[560px]`}
+        >
+          <div className="flex flex-col lg:flex-row items-center justify-between px-6 md:px-10 lg:px-24">
 
-         
-            <div className="relative top-17 w-[320px] h-[400px] lg:w-[410px] lg:h-[500px]">
+            {/* Image */}
+            <div className="relative w-[220px] h-[260px] sm:w-[280px] sm:h-[340px] md:w-[320px] md:h-[400px] lg:w-[410px] lg:h-[500px] mt-8 lg:mt-12">
               <Image
                 src={item.image.src}
                 alt={item.image.alt}
@@ -33,12 +33,13 @@ export default function Speaker({
               />
             </div>
 
-               <div className="max-w-[350px] text-center lg:text-left pb-12 lg:pb-0">
-              <h2 className="text-white text-[56px] leading-[58px] font-bold tracking-[2px] uppercase">
+            {/* Content */}
+            <div className="max-w-[350px] text-center lg:text-left py-8 lg:py-0">
+              <h2 className="text-white text-4xl md:text-5xl lg:text-[56px] leading-tight font-bold tracking-[2px] uppercase">
                 {item.title}
               </h2>
 
-              <p className="text-white/75 text-[15px] leading-[25px] mt-6 mb-10">
+              <p className="text-white/75 text-sm md:text-base leading-7 mt-6 mb-8">
                 {item.description}
               </p>
 
