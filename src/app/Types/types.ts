@@ -6,6 +6,7 @@ export interface Item {
   buttonText: string;
   Show:boolean,
   textColor: string,
+  imageBackGround:String,
   ParagraphColor:string,
   bgColor:string,
   image: {
@@ -31,6 +32,7 @@ export interface SpeakerType{
 export interface HeadPhoneType {
   id: number;
   tag: string;
+  TagSHow:boolean,
   title: string;
   description: string;
   buttonText: string;

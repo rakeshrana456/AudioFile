@@ -4,11 +4,12 @@ export const heroData = [{
   "Show":true,
   "bgColor":"bg-[#191919]",
    "textColor": "text-[#FFFFFF]",
+   "imageBackGround":"bg-[#191919]",
    "ParagraphColor":"text-[#9E9E9E]",
    "title": "XX99 MARK II HEADPHONES",
-  "description": "Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.",
-  "buttonText": "SEE PRODUCT",
-  "image": {
+   "description": "Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.",
+   "buttonText": "SEE PRODUCT",
+   "image": {
     "src": "/Hero/image-hero.png",
     "alt": "XX99 Mark II Headphones"
   },
@@ -19,8 +20,8 @@ export const heroData = [{
 export const HeadphoneDataFirst = [{
   "id": 1,
   "tag": "NEW PRODUCT",
+  "TagSHow":true,
   "title": "XX99 MARK II HEADPHONES",
-  
   "description": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
   "buttonText": "SEE PRODUCT", 
   "image": {
@@ -28,16 +29,28 @@ export const HeadphoneDataFirst = [{
     "alt": "XX99 Mark II Headphones"
   }
 }]
-
+export const HeadphoneDataThird = [{
+  "id": 1,
+  "tag": "NEW PRODUCT",
+  "TagSHow":false,
+  "title": "XX59 HEADPHONES",
+  "description": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
+  "buttonText": "SEE PRODUCT", 
+  "image": {
+    "src": "/Hero/WhiteHeadphone.png",
+    "alt": "XX99 Mark II Headphones"
+  }
+}]
 
 export const HeadphoneDataSecond = [{
   "id": 1,
   "tag": "NEW PRODUCT",
-  "title": "XX99 MARK II HEADPHONES",
+  "title": "XX99 MARK I HEADPHONES",
   "description": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
   "buttonText": "SEE PRODUCT",
   "textColor": "text-[#000000]",
    "ParagraphColor":"text-[#333333]",
+    "imageBackGround":"bg-gray-300",
    "Show":false,
   "bgColor":"bg-[#fff]",
   "image": {

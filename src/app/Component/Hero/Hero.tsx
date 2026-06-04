@@ -25,12 +25,12 @@ export default function Hero({ item }: HeroProps) {
           </button>
         </div>
 
-        <div className="relative w-175 h-158">
+        <div className={`${item?.imageBackGround} relative  w-[591px] h-[613px] `}>
           <Image
             src={item?.image?.src}
             alt={item?.image?.alt}
             fill
-            className="object-contain "
+            className="object-contain"
           />
         </div>
       </div>
