@@ -11,7 +11,7 @@ export default function Earphone() {
         alt="YX1 Earphones"
         width={640}
         height={420}
-        className="max-w-135 max-h-80 object-cover"
+        className="max-w-135 max-h-80 object-contain transition-all duration-500 ease-out group-hover:scale-110 group-hover:rotate-3"
       />
     </div>
 

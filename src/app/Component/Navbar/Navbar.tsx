@@ -41,6 +41,13 @@ export default function Navbar() {
                   }`}>
                   <Link href="/Common/Speaker">Speakers</Link>
                 </li>
+
+                   <li className={`text-md font-bold transition-all duration-700 ${pathname === "/Common/Earphones"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                  }`}>
+                  <Link href="/Common/Earphones">Earphones</Link>
+                </li>
               </ul>
             </div>
             <div className="nav-cart">

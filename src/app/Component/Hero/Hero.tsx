@@ -25,7 +25,7 @@ export default function Hero({ item }: HeroProps) {
           </button>
         </div>
 
-        <div className={`${item?.imageBackGround} relative  w-[591px] h-[613px] `}>
+        <div className={`${item?.imageBackGround} relative  w-[591px] h-[613px] overflow-hidden `}>
           <Image
             src={item?.image?.src}
             alt={item?.image?.alt}
