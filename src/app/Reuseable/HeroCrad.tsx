@@ -3,13 +3,13 @@ import HeadPhoneHero from "../HeadPhone/Hero/HeadPhoneHero"
 import { Item } from "@/app/Types/types";
 
 interface HeroCardProps {
-  product: Item[];
+  data: Item[];
 }
 
-export default function HeroCard({ product }: HeroCardProps) {
+export default function HeroCard({ data }: HeroCardProps) {
   return (
     <>
-      {product.map((item) => (
+      {data.map((item) => (
         <Hero key={item.id} item={item} />
       ))}
     </>

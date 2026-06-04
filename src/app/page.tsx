@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import Button from "@/Buttons/Button";
-// import Navbar from "./Component/Navbar/Navbar";
 import { heroData,speakerBanner } from "@/Data/data";
 import HeroCrad from "./Reuseable/HeroCrad";
 import CategorySection from "./Component/Categories/Categories";
@@ -12,14 +10,14 @@ import Footer from "./Component/Footer/Footer";
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
-      <HeroCrad product={heroData} />
+  
+      <HeroCrad data={heroData} />
       <CategorySection />
       <SpeakerCard product={speakerBanner} />
       <Zx />
       <Earphone />
       <BestAudioGear />
-      {/* <Footer /> */}
+  
     </>
   );
 }

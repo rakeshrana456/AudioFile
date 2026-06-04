@@ -1,21 +1,21 @@
 import Image from "next/image";
-import { Item } from "@/app/Types/types";
+import { HeadPhoneType } from "@/app/Types/types";
 
 interface HeroProps {
-  item: Item;
+  item: HeadPhoneType;
 }
 export default function HeadPhoneHero({ item }: HeroProps) {
   return (
-    <section >
-      <div className="container flex items-center justify-between">
-        <div className="relative w-[615px] h-[638px] rounded-xl ">
-  <Image
-    src={item?.imageSec?.src}
-    alt={item.imageSec.alt}
-    fill
-    className="object-contain"
-  />
-</div>
+    <section className="py-20">
+      <div className="container flex items-center justify-between min-h-[596px] ">
+        <div className="relative w-[615px] h-[638px] rounded-xl bg-gray-300 overflow-hidden group">
+          <Image
+            src={item?.image?.src}
+            alt={item.image.alt}
+            fill
+            className="cursor-pointer object-contain transition-all duration-500 ease-out group-hover:scale-110 group-hover:rotate-3"
+          />
+        </div>
         <div className="max-w-[400px]">
           <p className="text-[#D87D4A] text-sm tracking-[10px] uppercase mb-6">
             {item.tag}
@@ -33,8 +33,6 @@ export default function HeadPhoneHero({ item }: HeroProps) {
             {item.buttonText}
           </button>
         </div>
-
-    
       </div>
     </section>
   );

@@ -4,14 +4,15 @@ export interface Item {
   title: string;
   description: string;
   buttonText: string;
+  Show:boolean,
+  textColor: string,
+  ParagraphColor:string,
+  bgColor:string,
   image: {
     src: string;
     alt: string;
   };
-   imageSec: {
-    src: string;
-    alt: string;
-  };
+ 
 }
 
 export interface SpeakerType{
@@ -25,4 +26,17 @@ export interface SpeakerType{
     src: string;
     alt: string;
   };
+}
+
+export interface HeadPhoneType {
+  id: number;
+  tag: string;
+  title: string;
+  description: string;
+  buttonText: string;
+  image: {
+    src: string;
+    alt: string;
+  }
+   
 }

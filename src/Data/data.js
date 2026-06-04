@@ -1,18 +1,50 @@
 export const heroData = [{
   "id": 1,
   "tag": "NEW PRODUCT",
-  "title": "XX99 MARK II HEADPHONES",
+  "Show":true,
+  "bgColor":"bg-[#191919]",
+   "textColor": "text-[#FFFFFF]",
+   "ParagraphColor":"text-[#9E9E9E]",
+   "title": "XX99 MARK II HEADPHONES",
   "description": "Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.",
-  
   "buttonText": "SEE PRODUCT",
   "image": {
     "src": "/Hero/image-hero.png",
     "alt": "XX99 Mark II Headphones"
   },
-  "imageSec": {
-    "src": "/Hero/HeadPhone.png",
+  
+}]
+
+
+export const HeadphoneDataFirst = [{
+  "id": 1,
+  "tag": "NEW PRODUCT",
+  "title": "XX99 MARK II HEADPHONES",
+  
+  "description": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
+  "buttonText": "SEE PRODUCT", 
+  "image": {
+    "src": "/Hero/BlackHeadphone.png",
     "alt": "XX99 Mark II Headphones"
   }
+}]
+
+
+export const HeadphoneDataSecond = [{
+  "id": 1,
+  "tag": "NEW PRODUCT",
+  "title": "XX99 MARK II HEADPHONES",
+  "description": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
+  "buttonText": "SEE PRODUCT",
+  "textColor": "text-[#000000]",
+   "ParagraphColor":"text-[#333333]",
+   "Show":false,
+  "bgColor":"bg-[#fff]",
+  "image": {
+    "src": "/Hero/BlackTwo.png",
+    "alt": "XX99 Mark II Headphones"
+  },
+   
 }]
 export const categories = [
   {
@@ -50,9 +82,8 @@ export const speakerBanner = [
 
 export const bestAudioData = {
   title: "BRINGING YOU THE",
-    subtitle: "AUDIO GEAR",
+  subtitle: "AUDIO GEAR",
   highlight: "BEST",
-
   description:
     "Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.",
   image: {

@@ -5,18 +5,18 @@ interface HeroProps {
 }
 export default function Hero({ item }: HeroProps) {
   return (
-    <section className="bg-[#191919]">
-      <div className="container min-h-[632px] flex items-center justify-between">
-        <div className="max-w-[400px]">
-          <p className="text-white/50 text-sm tracking-[10px] uppercase mb-6">
+    <section className={`${item.bgColor}`}>
+      <div className="container min-h-158 flex items-center justify-between">
+        <div className="max-w-100">
+          {item?.Show && <p className="text-white/50 text-sm tracking-[10px] uppercase mb-6">
             {item.tag}
           </p>
-
-          <h1 className="text-white text-[56px] leading-[58px] font-bold uppercase">
+          }
+          <h1 className={`${item?.textColor} text-[56px] leading-14.5 font-bold uppercase`}>
             {item.title}
           </h1>
 
-          <p className="text-white/75 text-[15px] leading-[25px] mt-6 mb-10">
+          <p className={`${item?.ParagraphColor} text-[15px] leading-6.25 mt-6 mb-10`}>
             {item.description}
           </p>
 
@@ -25,12 +25,12 @@ export default function Hero({ item }: HeroProps) {
           </button>
         </div>
 
-        <div className="relative w-[700px] h-[632px]">
+        <div className="relative w-175 h-158">
           <Image
-            src={item.image.src}
-            alt={item.image.alt}
+            src={item?.image?.src}
+            alt={item?.image?.alt}
             fill
-            className="object-contain"
+            className="object-contain "
           />
         </div>
       </div>
