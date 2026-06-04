@@ -30,7 +30,7 @@ export default function Hero({ item }: HeroProps) {
             src={item?.image?.src}
             alt={item?.image?.alt}
             fill
-            className="object-contain"
+            className="object-contain transition-all duration-500 ease-out group-hover:scale-110 group-hover:rotate-3"
           />
         </div>
       </div>

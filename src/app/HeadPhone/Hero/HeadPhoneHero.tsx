@@ -7,7 +7,7 @@ interface HeroProps {
 export default function HeadPhoneHero({ item }: HeroProps) {
   return (
     <section className="py-20 bg-[#FFFFFF]">
-      <div className="container flex items-center justify-between min-h-[596px] ">
+      <div className="container flex items-center justify-between max-h-[596px] ">
         <div className="relative w-[615px] h-[638px] rounded-xl bg-gray-300 overflow-hidden group">
           <Image
             src={item?.image?.src}
