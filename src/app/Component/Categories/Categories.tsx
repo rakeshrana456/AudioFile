@@ -1,13 +1,16 @@
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
 import { categories } from "@/Data/data";
+import Link from "next/link"
 
 export default function CategorySection() {
   return (
     <section className="py-10 md:py-20 px-4 md:px-0">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 py-10">
-          {categories.map((item) => (
+          {categories.map((item ,index) => (
+            
+        <Link key={index} href={`${item.href}`}>
             <div
               key={item.id}
               className="relative bg-gray-300 rounded-lg pt-14 pb-8 flex flex-col items-center mx-4 sm:mx-0 my-5 lg:my-0"
@@ -34,6 +37,8 @@ export default function CategorySection() {
                 />
               </button>
             </div>
+            </Link>
+        
           ))}
         </div>
       </div>

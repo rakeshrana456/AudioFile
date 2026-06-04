@@ -64,16 +64,19 @@ export const categories = [
     id: 1,
     title: "HEADPHONES",
     image: "/Categories/headphones.png",
+    href:"/Common/Headphone"
   },
   {
     id: 2,
     title: "SPEAKERS",
     image: "/Categories/speakers.png",
+    href:"/Common/Speaker"
   },
   {
     id: 3,
     title: "EARPHONES",
     image: "/Categories/earphones.png",
+    href:"/Common/Earphones"
   },
 ];
 
@@ -120,17 +123,17 @@ export const footerData=
     {
       "id": 2,
       "title": "HEADPHONES",
-      "path": "/headphones"
+      "path": "/Headphones"
     },
     {
       "id": 3,
       "title": "SPEAKERS",
-      "path": "/speakers"
+      "path": "/Speaker"
     },
     {
       "id": 4,
       "title": "EARPHONES",
-      "path": "/earphones"
+      "path": "/Earphones"
     }
   ],
   "socialLinks": [
