@@ -24,7 +24,7 @@ export default function RootLayout({
       className={` ${manrope.className} h-full antialiased`}
     >
       
-      <body className="min-h-full flex flex-col"><Navbar/>{children}  <Footer/>   </body>
+      <body className=" bg-white min-h-full flex flex-col"><Navbar/>{children}  <Footer/>   </body>
     
     </html>
   );
