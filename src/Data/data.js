@@ -123,17 +123,17 @@ export const footerData=
     {
       "id": 2,
       "title": "HEADPHONES",
-      "path": "/Headphones"
+      "path": "/Common/Headphone"
     },
     {
       "id": 3,
       "title": "SPEAKERS",
-      "path": "/Speaker"
+      "path": "/Common/Speaker"
     },
     {
       "id": 4,
       "title": "EARPHONES",
-      "path": "/Earphones"
+      "path": "/Common/Earphones"
     }
   ],
   "socialLinks": [

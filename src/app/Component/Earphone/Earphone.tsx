@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Earphone() {
   return (
-    <section className="py-8 md:py-16">
+    <section className="py-8 md:py-16 ">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 

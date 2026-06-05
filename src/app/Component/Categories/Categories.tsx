@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function CategorySection() {
   return (
-    <section className="py-10 md:py-20 px-4 md:px-0">
+    <section className="py-10 md:py-20 px-4 md:px-0 bg-white">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 py-10">
           {categories.map((item ,index) => (

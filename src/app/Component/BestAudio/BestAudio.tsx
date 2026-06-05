@@ -5,7 +5,8 @@ export default function BestAudioGear() {
   const { title,highlight, subtitle, description, image } = bestAudioData;
 
   return (
-    <section className="container py-12 md:py-24 px-4 md:px-0">
+    <section className=" bg-white">
+      <div className="container  py-12 md:py-24 px-4 md:px-0">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8 md:gap-12 lg:gap-16">
         
         <div className="max-w-[445px] text-center lg:text-left px-4 lg:px-0">
@@ -31,6 +32,7 @@ export default function BestAudioGear() {
           />
         </div>
 
+      </div>
       </div>
     </section>
   );
