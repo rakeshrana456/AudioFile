@@ -1,8 +1,8 @@
 import Speaker from "@/app/Component/SpeakerCard/Speaker";
-import { HeroCardData } from "@/app/Types/types";
+import { SpeakerData } from "@/app/Types/types";
 
 interface SpeakerCardProps {
-  product: HeroCardData[];
+  product: SpeakerData[];
 }
 
 export default function SpeakerCard({ product }: SpeakerCardProps) {

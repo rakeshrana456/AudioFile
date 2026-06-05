@@ -40,7 +40,7 @@ export default function Speaker({ item }: SpeakerBannerProps) {
               </h2>
 
               <p className="text-white/75 text-sm md:text-base leading-7 mt-6 mb-8">
-                {item.description}
+                {item.description}sasasasasasasasa
               </p>
 
               <button className="cursor-pointer bg-black text-white px-8 py-4 text-[13px] font-bold tracking-[1px] uppercase hover:bg-[#4C4C4C] transition">

@@ -34,3 +34,16 @@ export interface HeroCardData {
     alt:string
   },
 }
+export interface SpeakerData {
+ id: number,
+    tag:string,
+    title: string,
+    bgColor: string,
+    description:
+      string
+    buttonText: string,
+    image: {
+      src:string,
+      alt: string,
+}
+}

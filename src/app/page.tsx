@@ -1,5 +1,5 @@
 
-import { heroData,speakerBanner } from "@/Data/data";
+import { heroData,speakerBanner,SpeakerData } from "@/Data/data";
 import HeroCrad from "./Reuseable/HeroCrad";
 import CategorySection from "./Component/Categories/Categories";
 import SpeakerCard from "./Reuseable/SpeakerCard";
@@ -14,7 +14,7 @@ export default function Home() {
   
       <HeroCrad data={heroData} />
       <CategorySection />
-      <SpeakerCard product={heroData} />
+      <SpeakerCard product={speakerBanner} />
       <Zx />
       <Earphone />
       <BestAudioGear />
