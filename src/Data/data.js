@@ -1,8 +1,8 @@
 export const heroData = [{
   "id": 1,
   "tag": "NEW PRODUCT",
-  "Show":true,
-  "bgColor":"bg-[#191919]",
+   "Show":true,
+   "bgColor":"bg-[#191919]",
    "textColor": "text-[#FFFFFF]",
    "imageBackGround":"bg-[#191919]",
    "ParagraphColor":"text-[#9E9E9E]",

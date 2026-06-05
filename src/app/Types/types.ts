@@ -1,44 +1,36 @@
-export interface Item {
+export interface Product {
   id: number;
+  category: string;
+  slug: string;
   tag: string;
-  title: string;
-  description: string;
-  buttonText: string;
-  Show:boolean,
-  textColor: string,
-  imageBackGround:String,
   ParagraphColor:string,
+  imageBackGround:string,
+  textColor:string,
   bgColor:string,
-  image: {
-    src: string;
-    alt: string;
-  };
- 
-}
-
-export interface SpeakerType{
-  id: number;
-  tag: string;
+  reverse:boolean,
+  showTag: boolean;
   title: string;
   description: string;
-  bgColor: string;
   buttonText: string;
+   CompVisible:boolean,
   image: {
     src: string;
     alt: string;
   };
 }
-
-export interface HeadPhoneType {
-  id: number;
-  tag: string;
-  TagSHow:boolean,
-  title: string;
-  description: string;
-  buttonText: string;
+export interface HeroCardData {
+ id: number,
+  tag: string,
+  Show:boolean,
+   bgColor:string,
+   textColor: string,
+   imageBackGround:string,
+   ParagraphColor:string,
+   title: string,
+   description: string,
+   buttonText:string,
   image: {
-    src: string;
-    alt: string;
-  }
-   
+    src: string,
+    alt:string
+  },
 }

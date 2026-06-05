@@ -19,7 +19,7 @@ export default function Speaker({ item }: SpeakerBannerProps) {
     <section className="py-8 md:py-10">
       <div className="container">
         <div
-          className={`${item.bgColor} rounded-lg overflow-hidden min-h-[600px] lg:min-h-[560px]`}
+          className={`${item.bgColor} rounded-lg overflow-hidden min-h-150 lg:min-h-140`}
         >
           <div className="flex flex-col lg:flex-row items-center justify-between px-6 md:px-10 lg:px-24">
 

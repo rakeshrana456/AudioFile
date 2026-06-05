@@ -10,7 +10,7 @@ export default function CategorySection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 py-10">
           {categories.map((item, index) => (
 
-            <Link key={index} href={`${item.href}`}>
+            <Link key={index} href={`${item?.href}`}>
               <div
                 key={item.id}
                 className="relative bg-gray-300 rounded-lg pt-14 pb-8 flex flex-col items-center mx-4 sm:mx-0 my-5 lg:my-0"
