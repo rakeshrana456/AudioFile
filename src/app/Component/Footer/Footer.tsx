@@ -19,7 +19,7 @@ type FooterType = {
 
 export default function Footer() {
     return (
-        <footer className="bg-[#101010] text-white mt-24">
+        <footer className="bg-[#101010] text-white mt-24 ">
             <div className="container relative py-16">
 
 

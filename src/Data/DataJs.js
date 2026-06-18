@@ -152,8 +152,8 @@ export const categories = [
   },
   {
     id: 4,
-    title: "FORM",
-    slug: "Form",
+    title: "CONTACT US",
+    slug: "Contact",
     image: "/Categories/earphones.png",
   },
 ];

@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="navbar bg-[#191919]">
       <div className="container">
         <div className="flex justify-between py-8 relative">
-          {/* Logo */}
+
           <Link href="/">
             <Image
               src="/nav/logo.png"
@@ -25,15 +25,14 @@ export default function Navbar() {
             />
           </Link>
 
-         
+
           <div className="hidden md:block">
             <ul className="flex gap-12">
               <li
-                className={`font-bold transition-all duration-300 ${
-                  pathname === "/"
+                className={`font-bold transition-all duration-300 ${pathname === "/"
                     ? "text-orange-500"
                     : "hover:text-orange-500"
-                }`}
+                  }`}
               >
                 <Link href="/">HOME</Link>
               </li>
@@ -41,11 +40,10 @@ export default function Navbar() {
               {categories.map((item) => (
                 <li
                   key={item.id}
-                  className={`font-bold transition-all duration-300 ${
-                    pathname === `/${item?.slug}`
+                  className={`font-bold transition-all duration-300 ${pathname === `/${item?.slug}`
                       ? "text-orange-500"
                       : "hover:text-orange-500"
-                  }`}
+                    }`}
                 >
                   <Link href={`/${item.slug}`}>
                     {item.title}
@@ -68,9 +66,10 @@ export default function Navbar() {
           </div>
         </div>
 
-        <hr />
+        {
+          pathname === "/" && <hr/>
+        }
 
-        {/* Mobile Menu */}
         {isMenuOpen && (
           <div
             className="fixed inset-0 bg-black/50 z-50 md:hidden"
@@ -89,11 +88,10 @@ export default function Navbar() {
 
               <ul className="flex flex-col gap-6">
                 <li
-                  className={`font-bold ${
-                    pathname === "/"
+                  className={`font-bold ${pathname === "/"
                       ? "text-orange-500"
                       : "text-white hover:text-orange-500"
-                  }`}
+                    }`}
                 >
                   <Link
                     href="/"
@@ -106,11 +104,10 @@ export default function Navbar() {
                 {categories.map((item) => (
                   <li
                     key={item.id}
-                    className={`font-bold ${
-                      pathname === `/${item.slug}`
+                    className={`font-bold ${pathname === `/${item.slug}`
                         ? "text-orange-500"
                         : "text-white hover:text-orange-500"
-                    }`}
+                      }`}
                   >
                     <Link
                       href={`/${item.slug}`}

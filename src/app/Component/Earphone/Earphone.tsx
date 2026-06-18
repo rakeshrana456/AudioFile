@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Earphone() {
+export default function   Earphone() {
   return (
     <section className="py-8 md:py-16 ">
       <div className="container">

@@ -5,6 +5,7 @@ export async function POST(req: Request) {
 
   const response = await fetch(
     "https://api.hsforms.com/submissions/v3/integration/submit/246523228/6033f158-7ef9-49e8-b2e3-f5ab7cfe0e04",
+    
     {
       method: "POST",
       headers: {
@@ -29,18 +30,10 @@ export async function POST(req: Request) {
             value: body.phone,
           },
           {
-            name: "company",
-            value: body.company,
-          },
-          {
-            name: "numemployees",
-            value: body.numEmployees,
-          },
-          {
-            name: "jobtitle",
-            value: body.jobTitle,
-          },
-        ],
+            name: "message",
+            value: body.message,
+          },]
+       
       }),
     }
   );
