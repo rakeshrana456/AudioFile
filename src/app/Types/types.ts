@@ -39,10 +39,9 @@ export interface SpeakerData {
     tag:string,
     title: string,
     bgColor: string,
-    description:
-      string
+    description:string
     buttonText: string,
-    image: {
+    image:{
       src:string,
       alt: string,
 }

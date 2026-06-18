@@ -150,4 +150,10 @@ export const categories = [
     slug: "earphones",
     image: "/Categories/earphones.png",
   },
+  {
+    id: 4,
+    title: "FORM",
+    slug: "Form",
+    image: "/Categories/earphones.png",
+  },
 ];
